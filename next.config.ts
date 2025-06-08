@@ -1,7 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  pageExtensions: [ 
+    'page,tsx',
+    'api.tsx',
+    'api.tsx'
+  ]
+
 };
+
 
 export default nextConfig;
